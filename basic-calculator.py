@@ -1,6 +1,6 @@
 # Basic calculator converting variables types
 
-First = input('Enter the first number: ')
-Second = input('Enter the second number: ')
-Sum = float(First) + float(Second)
-print(Sum)
+first = float(input('Enter the first number: '))
+second = float(input('Enter the second number: '))
+sum = first + second
+print("Sum: " + str(sum))
