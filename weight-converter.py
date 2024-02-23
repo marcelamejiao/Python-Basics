@@ -4,8 +4,8 @@
 
 user_weight = float(input("Weight: "))
 is_km_or_lb = input("type k if your number is in (K)g or l if your number is in (L)bs: ")
-kg_to_lb = user_weight / 2.2046
-lb_to_kg = user_weight * 2.2046
+kg_to_lb = user_weight * 0.45
+lb_to_kg = user_weight / 0.45
 
 if is_km_or_lb == 'l':
     print("Your weight in Kgs is: " + str(kg_to_lb))
